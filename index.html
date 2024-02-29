@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/user-tie-solid.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/90a09a4b2e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2 class="logo">LZRIM.</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portflio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="home_img"></div>
+        <div class="header__text">
+          <p>Front-End Developer</p>
+          <h1>Hey, I'm <span>IQBAL</span> a React <br />developer.</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/newimg.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h3 class="about_me">About me</h3>
+            <h2 class="dedicated">
+              A dedicated Front-end Developer based in Ethiopia.
+            </h2>
+            <p>
+              As a junior Front-End Developer, I possess an impressive arsenal
+              of skills in HTML, CSS, JavaScript, React, Tailwind and SCSS. I
+              excel in designing and maintaining responsive websites that offer
+              a smooth user experience. My expertise lies in crafting dynamic,
+              engaging interfaces through writing clean and optimize code and
+              utilizing cutting-edge development tools and techniques. I am also
+              a team player who thrives in collaborating with cross-functional
+              teams to produce outstanding web application.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Responsive Web Development</h2>
+            <p>
+              I ensure that your website looks great and functions flawlessly
+              across all devices and screen sizes.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Responsive_web_design"
+              >learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Website Design</h2>
+            <p>
+              I can create modern and visually appealing designs that align with
+              your brand identity.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>React Developer</h2>
+            <p>
+              I specialize in building interactive user interfaces by using
+              material ui and tailwind by integrating and fetching data from
+              api.
+            </p>
+            <a
+              href="https://en.wikipedia.org/wiki/React_(software)#:~:text=React%20was%20created%20by%20Jordan,in%20Jordan%20Walke's%20GitHub%20repository."
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portflio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work_list">
+          <div class="work">
+            <img src="images/GameHub.png" alt="Game hub" />
+            <div class="layer">
+              <h3>Game Hub</h3>
+              <p>
+                GameHub is a video game discovery web app that helps you find
+                new and interesting games to play. With GameHub, you can search
+                for games by platform, genre, and more.
+              </p>
+              <a href="https://game-hub-nine-omega.vercel.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/AI Summerizer.png" alt="" />
+            <div class="layer">
+              <h3>AI Summerizer</h3>
+              <p>
+                Users can input the URL of a lengthy article, and the web app
+                utilizes AI to provide a concise summary of the article content.
+              </p>
+              <a href="https://sumz-text-ai.netlify.app"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/mella.png" alt="" />
+            <div class="layer">
+              <h3>Mella Markating</h3>
+              <p>
+                Mella is a marketing agency which help companies grow their
+                online presence.
+              </p>
+              <a href="https://mellaa-marketing.netlify.app"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a class="btn" href="#">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="content-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              @iqbalezedin5@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+251938558302</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/_iqbal_ez/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+
+              <a href="https://www.linkedin.com/in/iqbal-ezedin-72b971280/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Iqbalez"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="" class="btn btn2" download>Download cv</a>
+          </div>
+          <div class="content-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submite</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @Iqbal Ez, Choose the right one.<i
+            class="fa-solid fa-heart"
+            style="color: #ff0019"
+          ></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxk7DywrULj5U1O17JbIxhADDvSI-APqdpNqdighnG9uCb1aJsPzChFm1z3z6Zom4wd/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent succesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
